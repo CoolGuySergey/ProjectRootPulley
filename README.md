@@ -1,1 +1,7 @@
-•	minimal viable deliverable that takes in an unrooted tree (must have branch lengths) and animates the search for root position like the pivot position when you tie many pendulums together (the way I’d always visualised it). This can then be used to visualise outgroup interference when using rooting methods that do not rely on outgroups. However, this doesn’t immediately resolve rooting issues to do with multiple long branches / outgroup-like sequences at the base of SITE-100 subtrees, but it’s useful to visualise what is happening when site-trees are pooled together.
+Minimal viable deliverable:
+
+(1) Takes in an unrooted tree (must have branch lengths)
+(2) Animates the search for root position like a pulley
+(3) Compute MAD score for candidate roots
+(4) Add and remove outgroup to visualise "outgroup pull"
+(5) Visualise effect of long branches at the base of trees
